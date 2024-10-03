@@ -1,0 +1,21 @@
+<!-- client/search_room.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Room Search</title>
+</head>
+<body>
+    <h1>Smart Search for Free Meeting Rooms</h1>
+    <form id="search-form">
+        <label for="time">Preferred Time (HH:MM):</label>
+        <input type="time" id="time" name="time">
+        <button type="button" onclick="searchRooms()">Search</button>
+    </form>
+    <div id="room-results"></div>
+
+    <script src="room-search.js"></script>
+</body>
+</html>
